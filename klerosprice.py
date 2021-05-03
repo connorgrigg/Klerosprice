@@ -31,7 +31,7 @@ current = data['kleros']['usd']
 change = current - float(previousdata)
 change = round(change, 5)
 percent_change = round(((change/current) * 100), 6)
-#prints 
+# prints 
 print("Current Kleros price:", current, "USD")
 print("Previous Kleros price:", previousdata, "USD")
 print("Difference: ", change, "USD")
